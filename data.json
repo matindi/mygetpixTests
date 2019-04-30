@@ -1,0 +1,59 @@
+{
+    "Step1":{
+        "Page": "https://preview.mygetpix.com/",
+        "Identifier": "//*[@id=\"app\"]/div/div/div[1]/div/div/div/div[1]/div[3]/div/div[1]/button/div/img",
+        "Action": "Checked",
+        "Data": "Is checkbox checked",
+        "SelectorType" : "xpath"}
+        ,
+    
+    "Step2":{
+        "Page": "https://preview.mygetpix.com/",
+        "Identifier": "//*[@id=\"app\"]/div/div/div[1]/div/div/div/div[1]/div[3]/div/div[1]/button/div/img",
+        "Action": "Click",
+        "Data": "Random",
+        "SelectorType" : "xpath"}
+        ,
+        
+    "Step3":{
+        "Page": "https://preview.mygetpix.com/",
+        "Identifier": "SelectPhotos",
+        "Action": "Click",
+        "Data": "Random",
+        "SelectorType" : "css"}
+        ,
+    "Step4":{
+        "Page": "https://preview.mygetpix.com/",
+        "Identifier": ".v-card__text pt-0 pb-1",
+        "Action": "AssertElement",
+        "Data": "Terms of condition",
+        "SelectorType" : "className"}
+        ,
+    "Step5":{
+        "Page": "https://preview.mygetpix.com/",
+        "Identifier": ".tstAcceptTermsCheck ",
+        "Action": "AssertElement",
+        "Data": "Terms and conditions Checkbox",
+        "SelectorType" : "className"}
+        ,
+    "Step6":{
+        "Page": "https://preview.mygetpix.com/",
+        "Identifier": ".tstAcceptTermsButton ",
+        "Action": "AssertElement",
+        "Data": "Terms and conditions button",
+        "SelectorType" : "className"}
+        ,
+    "Step7":{
+        "Page": "https://preview.mygetpix.com/",
+        "Identifier": ".tstTermsAndConditionsInlineLink",
+        "Action": "Hyperlinks",
+        "Data": "Terms and Conditions Of Use",
+        "SelectorType" : "css"}
+        ,
+    "Step8":{
+        "Page": "https://preview.mygetpix.com/",
+        "Identifier": ".tstPrivacyPolicyInlineLink",
+        "Action": "Hyperlinks",
+        "Data": "Privacy Policy",
+        "SelectorType" : "css"}
+    }
